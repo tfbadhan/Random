@@ -4,26 +4,22 @@ using namespace std;
 
 void Divisors(int n)
 {
-	for(int i=1; i<=sqrt(n); i++)
+	for(int i=1; i*i<n; i++)
 	{
-		if(n%i==0)
-		{
-			if(n/i==i)
-			{
-				cout<<i<<" "; //printf("%d ", i)
-			}
-			else 
-			{
-				cout<<i<<" "<<n/i<<" "; //printf("%d %d ", i, n/i)
-			}
-		}
+		if(n%i==0) cout<<i<<" ";
+	}
+	
+	for(int i=sqrt(n); i>=1; i--)
+	{
+		if(n%i==0) cout<<n/i<<" ";
+		
 	}
 }
+
 
 int main()
 {
 	int n;
 	cin>>n;
 	Divisors(n);
-	return 0;
 }
