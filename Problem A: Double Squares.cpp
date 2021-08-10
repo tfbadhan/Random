@@ -1,5 +1,5 @@
 //    https://www.facebook.com/codingcompetitions/hacker-cup/2011/qualification-round/problems/A
-
+//    naive solution
 
 #include <bits/stdc++.h>
 using namespace std;
