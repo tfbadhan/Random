@@ -1,3 +1,5 @@
+! odd or even number
+
 program ODD_EVEN
 	INTEGER N
 	READ*, N
