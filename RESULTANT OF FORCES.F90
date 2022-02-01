@@ -6,5 +6,5 @@ R = SQRT(X ** 2 + Y ** 2)
 ANGLE = 0.0
 ANGLE = ATAN(Y/X)
 PRINT*, R
-PRINT*, ANGEL
+PRINT*, ANGLE
 END
