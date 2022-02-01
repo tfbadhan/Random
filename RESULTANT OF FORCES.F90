@@ -3,8 +3,8 @@
 READ*, X, Y
 R = 0.0
 R = SQRT(X ** 2 + Y ** 2)
-ANGEL = 0.0
-ANGEL = ATAN(Y/X)
+ANGLE = 0.0
+ANGLE = ATAN(Y/X)
 PRINT*, R
 PRINT*, ANGEL
 END
